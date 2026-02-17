@@ -37,7 +37,7 @@ func main() {
 }
 ```
 
-##config
+## config
 You need to create a .env file
 
 example:
