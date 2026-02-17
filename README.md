@@ -36,3 +36,11 @@ func main() {
 	gorb.Bootstrap([]gorb.Registerer{registerer})
 }
 ```
+
+##config
+You need to create a .env file
+
+example:
+```sh
+PORT=8080
+```
