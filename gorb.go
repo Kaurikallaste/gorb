@@ -9,7 +9,7 @@ import (
 
 type Registerer func()
 
-func bootstrap(registerers []Registerer) {
+func Bootstrap(registerers []Registerer) {
 
 	for _, registerer := range registerers {
 		registerer()
